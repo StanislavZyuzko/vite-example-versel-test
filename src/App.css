@@ -1,0 +1,175 @@
+.App {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+}
+
+.more-character-info > h3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.modal-container {
+  width: 350px;
+  position: relative;
+}
+
+input.error {
+  border: 1px solid red;
+  outline: none;
+}
+
+.errorMessage {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  margin-top: -10px;
+  margin-left: -130px;
+}
+
+.modal-label {
+  display: flex;
+  flex-direction: column;
+  padding-left: 37px;
+}
+
+input:invalid.not-focused {
+  border: 1px solid red;
+}
+
+.modal-err {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  margin-top: -10px;
+  margin-left: -285px;
+  /* display: none; */
+}
+
+input:invalid.not-focused + p {
+  display: block;
+}
+
+.modal-hidden {
+  /* overflow: hidden; */
+  /* overflow-y: scroll;  */
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  /* z-index: 2; */
+}
+
+.modal-form {
+  padding-top: 20px;
+  position: fixed;
+  background-color: rgb(47, 245, 255);
+  width: 350px;
+  bottom: 30%;
+  /* z-index: 3; */
+}
+
+.modal-input {
+  width: 250px;
+}
+
+.menu-link {
+  font-size: 15px;
+}
+
+.selected {
+  background-color: greenyellow;
+}
+
+input {
+  height: 30px;
+  width: 390px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.mass-info {
+  font-weight: normal;
+}
+
+.wrapper {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.found {
+  text-align: left;
+  position: absolute;
+  top: -20px;
+  left: 20.5%;
+}
+
+.characters_board {
+  display: grid;
+  grid-template-columns: repeat(5, 160px);
+  grid-template-rows: repeat(3, 170px);
+  grid-gap: 14px 14px;
+}
+
+.character_info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid rgb(173, 179, 189);
+  border-radius: 4px;
+  padding: 0px 20px;
+  position: relative;
+}
+
+.remove-button {
+  position: absolute;
+  font-size: 110%;
+  top: 0;
+  right: 5px;
+  display: block;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.star-icon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 22px;
+}
+
+.favorites {
+  display: block;
+}
+
+.favorites-button {
+  background-color: gray;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.gender {
+  padding-bottom: 12px;
+}
+
+.world {
+  padding-bottom: 5px;
+}
+
+a {
+  font-size: 10px;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
