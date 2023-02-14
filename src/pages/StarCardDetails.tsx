@@ -27,7 +27,7 @@ function StarCardDetails({ characters }: CharactersProps) {
       <h3>birth_year: {characterInfo.birth_year}</h3>
 
       <Link className="menu-link" to="/">
-        На главную{" "}
+      home page{" "}
       </Link>
     </div>
   );

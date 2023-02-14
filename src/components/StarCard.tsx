@@ -63,7 +63,7 @@ function StarCard(props: CardProps) {
         type="button"
         onClick={favoritesHandleClick}
       >
-        в избранное
+        favorites
       </button>
 
       {isFavorite && (

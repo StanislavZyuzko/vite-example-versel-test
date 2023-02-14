@@ -14,7 +14,7 @@ function StarCardsFilter(props: CharactersProps) {
 
   return (
     <>
-      <h1>List of Characters!</h1>
+      <h1>List of Characters</h1>
       <form>
         <input
           value={value}
